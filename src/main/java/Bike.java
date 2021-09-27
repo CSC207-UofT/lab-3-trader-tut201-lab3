@@ -23,5 +23,5 @@ public class Bike implements Drivable, Tradable {
     public String toString(){
         String id = super.toString();
         return id + " (Max speed: " + this.maxSpeed +")";
-
+    }
 }
